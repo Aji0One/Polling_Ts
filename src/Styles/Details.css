@@ -1,0 +1,24 @@
+.cont {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(182, 181, 180);
+}
+.raw-title {
+  margin-top: 5%;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.rawData {
+  width: fit-content;
+  padding: 1rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  height: fit-content;
+}
